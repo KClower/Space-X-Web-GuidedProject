@@ -9,8 +9,7 @@ body,
 }
 
 html {
-  background: url("https://wallpaperplay.com/walls/full/7/0/b/104724.jpg")
-    no-repeat center center fixed;
+  background: url("https://wallpaperplay.com/walls/full/7/0/b/104724.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -24,7 +23,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: white;
+  /* color: white; */
 }
 
 .App {
@@ -45,13 +44,13 @@ button {
   padding: 6px 12px;
   font-size: 1.5rem;
   background: none;
-  border: 1px solid white;
+  border: 1px solid black;
   border-radius: 6px;
-  color: white;
+  /* color: white; */
 }
 
 button:hover {
-  background-color: white;
+  background-color: blue;
   color: rgb(0, 0, 58);
   cursor: pointer;
 }
