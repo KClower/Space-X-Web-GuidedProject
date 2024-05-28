@@ -14,7 +14,7 @@ export default function App() {
     setIsFetchingData(true);
     fetchMissions()
       .then(res => {
-        
+
         setIsFetchingData(false);
         setMissions(res.data);
       })
@@ -25,7 +25,7 @@ export default function App() {
   };
   return (
     <div className="App">
-      <h1>Space Missions</h1>
+      <h1>Space Missions are good and below us in a list</h1>
       <MissionForm getData={getData} isFetchingData={isFetchingData} />
       <MissionsList error={error} missions={missions} />
     </div>
