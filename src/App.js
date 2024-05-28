@@ -25,7 +25,7 @@ export default function App() {
   };
   return (
     <div className="App">
-      <h1>Space Missions are good and below us in a list</h1>
+      <h1>Space Missions are in a list below</h1>
       <MissionForm getData={getData} isFetchingData={isFetchingData} />
       <MissionsList error={error} missions={missions} />
     </div>
